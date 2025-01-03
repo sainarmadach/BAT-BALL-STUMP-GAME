@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+    background-color: darkgreen;
+    align-items: center;
+    justify-content: center;
+}
+.butt{
+    height: 70px;
+    width: 70px;
+    margin:30px;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+}
+#one{
+    background-color: aqua;
+}
+#two{
+    background-color: chartreuse;
+}
+#three{
+    background-color: chocolate;
+}
+#div1{
+    display: inline-block;
+    height: 160px;
+    /* margin-top: 50px;
+    margin-left:450px;
+    margin-right: 450px; */
+    border: 2px solid rgb(94, 229, 16);
+}

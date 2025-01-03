@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+  
+</head>
+<body>
+    <h1 style="margin-top: 160px; color: rgb(156, 210, 22);">BAT BALL STUMP GAME</h1>
+    <div id="div1">
+    <button class="butt" id="one" onclick="
+    computerchoosen=generateComputerChoosen();
+    res=finalresult('bat',computerchoosen);
+    display('bat',computerchoosen,res); ">🏏</button>
+
+    <button class="butt" id="two" onclick="
+    computerchoosen=generateComputerChoosen();
+    res=finalresult('ball',computerchoosen) 
+    display('ball',computerchoosen,res);">⚽</button>
+
+    <button class="butt" id="three" onclick="
+    computerchoosen=generateComputerChoosen();
+    res=finalresult('stump',computerchoosen);
+    display('stump',computerchoosen,res);">🧱
+    </button>
+    </div>
+    <script src="./index.js"></script>
+
+</body>
+</html>
